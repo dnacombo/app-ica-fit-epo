@@ -1,0 +1,8 @@
+{
+  "fif": "C:/Users/saeed/mne_data/MNE-sample-data/MEG/sample/sample_audvis_filt-0-40_raw.fif",
+  "n_components":15,
+  "method":"fastica",
+  "max_iter":"auto",
+  "allow_ref_meg":false
+}
+
