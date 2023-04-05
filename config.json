@@ -1,8 +1,16 @@
 {
-  "fif": "C:/Users/saeed/mne_data/MNE-sample-data/MEG/sample/sample_audvis_filt-0-40_raw.fif",
+  "mne": "/network/lustre/iss02/cenir/analyse/meeg/BRAINLIFE/datasets/ds000117/derivatives/meg_derivatives/sub-01/ses-meg/meg/sub-01_ses-meg_task-facerecognition_run-01_proc-sss_meg.fif",
   "n_components":15,
   "method":"fastica",
   "max_iter":"auto",
-  "allow_ref_meg":false
+  "allow_ref_meg":false,
+  "noise_cov":"",
+  "random_state":"", 
+  "fit_params":"",
+  "l_freq":1.0,
+  "h_freq":80.0,
+  "picks_to_plot":"",
+  "eog_ch":"EEG062",
+  "ecg_ch":"EEG063"
 }
 
