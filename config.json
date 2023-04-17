@@ -9,8 +9,6 @@
   "fit_params":"",
   "l_freq":1.0,
   "h_freq":80.0,
-  "picks_to_plot":"",
-  "eog_ch":"EEG062",
-  "ecg_ch":"EEG063"
+  "picks_to_plot":""
 }
 

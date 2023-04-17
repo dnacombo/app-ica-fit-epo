@@ -7,7 +7,7 @@ import os
 import mne
 import json
 import helper
-from mne.preprocessing import (ICA, create_ecg_epochs, create_eog_epochs)
+from mne.preprocessing import (ICA)
 import matplotlib.pyplot as plt
 
 #workaround for -- _tkinter.TclError: invalid command name ".!canvas"
