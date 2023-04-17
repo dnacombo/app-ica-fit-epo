@@ -1,5 +1,5 @@
 {
-  "mne": "/network/lustre/iss02/cenir/analyse/meeg/BRAINLIFE/datasets/dummy-epo.fif",
+  "epo": "/network/lustre/iss02/cenir/analyse/meeg/BRAINLIFE/datasets/dummy-epo.fif",
   "n_components":15,
   "method":"fastica",
   "max_iter":"auto",
