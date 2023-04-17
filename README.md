@@ -8,7 +8,7 @@ Brainlife App to compute ICA object using `mne.preprocessing.ICA` and `ica.fit()
 
 
 1) Input file is:
-    * `meg/fif` meg data file
+    * `meg/epo/fif` meg epoched data file
     
 2) Input parameters:
 
@@ -31,7 +31,6 @@ Brainlife App to compute ICA object using `mne.preprocessing.ICA` and `ica.fit()
    
 
 ## Authors
-- Saeed ZAHRAN(saeedzahranutc@gmail.com)
 - Maximilien Chaumon(maximilien.chaumon@icm-institute.org)
 
 ## Citations
