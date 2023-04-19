@@ -2,7 +2,7 @@
 
 
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.675-blue.svg)](https://doi.org/10.25663/brainlife.app.675)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.761-blue.svg)](https://doi.org/10.25663/brainlife.app.761)
 
 Brainlife App to compute ICA object using `mne.preprocessing.ICA` and `ica.fit()`.
 
@@ -14,7 +14,7 @@ Brainlife App to compute ICA object using `mne.preprocessing.ICA` and `ica.fit()
 
 
     * `n_components` Number of principal components (from the pre-whitening PCA step) that are passed to the ICA algorithm during fitting.
-    * `l_freq` Low frequency cut-off for (recommended) high-pass filtering before ICA. default is None (no high-pass filtering), but it is advisable to high-pass filter the data for best ICA decomposition.        
+    * `l_freq` Low frequency cut-off for (recommended) high-pass filtering before ICA. default is None (no high-pass filtering), but it is advisable to high-pass filter the data for best ICA decomposition.
     * `method` The ICA method to use in the fit method. Use the fit_params argument to set additional parameters. Specifically, if you want Extended   Infomax, set method='infomax' and fit_params=dict(extended=True) (this also works for method='picard'). Defaults to 'fastica'. 
     * `noise_cov` Noise covariance used for pre-whitening. If None (default), channels are scaled to unit variance ("z-standardized") as a group by channel type prior to the whitening by PCA.
     * `eog_ch` EOG channel to be used to detect EOG events, create epochs and overlay with the same epochs after rejecting ICA components highly correlated with the channel. If no channel is provided, MNE will try to guess, and issue an error if no EOG channel is found.
