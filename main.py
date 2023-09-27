@@ -26,7 +26,7 @@ epo = mne.read_epochs(fname, preload=True)
 if config['l_freq'] is not None:
     epo.filter(l_freq=config['l_freq'], h_freq=config['h_freq'])
 
-ica= ICA(n_components=config['n_components'], noise_cov=config['noise_cov'],
+ica= ICA(n_components=int(config['n_components']), noise_cov=config['noise_cov'],
                       random_state=config['random_state'], method=config['method'],
                       fit_params=config['fit_params'], max_iter=config['max_iter'],
                       allow_ref_meg=config['allow_ref_meg'])
