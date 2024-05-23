@@ -25,8 +25,10 @@ epo = mne.read_epochs(fname, preload=True)
 
 if config['l_freq'] is not None:
     epo.filter(l_freq=config['l_freq'], h_freq=config['h_freq'])
-
-fit_params = eval(config['fit_params'])
+if config['fit_params'] is not None:
+    fit_params = eval(config['fit_params'])
+else:
+    fit_params = None
 
 ica= ICA(n_components=int(config['n_components']), noise_cov=config['noise_cov'],
                       random_state=config['random_state'], method=config['method'],
